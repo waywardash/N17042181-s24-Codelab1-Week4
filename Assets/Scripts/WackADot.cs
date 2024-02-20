@@ -15,6 +15,6 @@ public class WhackADot : MonoBehaviour
             Random.Range(-5f, 5f)
         );
 
-        //GameManager.instance.Score++;
+        GameManager.instance.Score++;
     }
 }
